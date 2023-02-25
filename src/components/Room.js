@@ -18,8 +18,11 @@ const Room = ({room}) => {
   h-[60px]  tracking-[2px] flex justify-center items-center uppercase font-tertiary font-semibold text-base'>
 <div className='flex justify-between w-[80%]'>
    {/*size*/}
- <div>
-<div>Size</div>
+ <div className='flex items-center'>
+<div className='text-accent'>
+  <BsArrowFullscreen className='text-[15px]'/>
+
+</div>
  </div>
  {/*room capacity*/}
  <div>
