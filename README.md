@@ -1,5 +1,5 @@
 ## hotel landing Page
-- packages:-
+### packages:-
  -  react-datepicker
  -  spinners-react
  -  swiper
