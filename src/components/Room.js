@@ -6,7 +6,7 @@ import {FaExpandArrowsAlt,FaPeopleArrows} from 'react-icons/fa'
 const Room = ({room}) => {
   //destructring
   const {id,name,image,size,maxPerson,description,price} =room;
-  return <div className=' bg-red-100 min-h-[500px] group mb-4'>
+  return <div className=' bg-white min-h-[500px] group mb-4'>
     {/*img*/}
     <div className='overflow-hidden'>
       <img  className=" group-hover:scale-110 transation-ll 
