@@ -96,6 +96,32 @@ const RoomDetails = () => {
        <button className=' p-4 btn btn-lg btn-primary w-full rounded-md'>
         book now for ${price}
        </button>
+
+       {/*rules*/}
+       <div>
+        <h3 className='h3'>Hotel Rules</h3>
+        <p className='mb-7'>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.Ea placeat eos sed voluptas unde veniam eligendi a. Quaerat molestiae hic omnis temporibus quos consequuntur nam voluptatum ea accusamus, corrupti nostrum eum placeat quibusdam quis beatae quae labore earum architecto aliquid debitis
+        </p>
+        <ul>
+          <li className='flex  items-center gap-x-4'>
+            <FaCheck className='text-accent'/>
+            Check-in 3:00 PM- 9:00 PM
+          </li>
+          <li className='flex items-center gap-x-4'>
+            <FaCheck className='text-accent'/>
+            Check-Out 10:30 PM
+          </li>
+          <li className='flex items-center gap-x-4'>
+            <FaCheck className='text-accent'/>
+            No Pets
+          </li>
+          <li className='flex items-center gap-x-4'>
+            <FaCheck className='text-accent'/>
+           No Smoking
+          </li>
+        </ul>
+       </div>
       </div>
 
     </div>

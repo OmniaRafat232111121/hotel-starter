@@ -22,16 +22,16 @@ const Header = () => {
         </a>
         {/*nav*/}
         <nav className={`${header ? 'text-primary':'text-white'} flex  items-center justify-center   lg:gap-x-10 gap-x-4 font-tertiary  text-[15px]  tracking-[3px]`}>
-        <a href='' className='hover:text-accent transation'>
+        <a href='/' className='hover:text-accent transation'>
            Home
         </a>
-        <a href='' className='hover:text-accent transation'>
+        <a href='/' className='hover:text-accent transation'>
            Rooms
         </a>
-        <a href='' className='hover:text-accent transation'>
+        <a href='/' className='hover:text-accent transation'>
            Restaurant
         </a>
-        <a href='' className='hover:text-accent transation'>
+        <a href='/' className='hover:text-accent transation'>
            SPa
         </a>
         </nav>

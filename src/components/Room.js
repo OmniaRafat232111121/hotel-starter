@@ -1,6 +1,7 @@
 import React from 'react';
 //link
 import {Link} from'react-router-dom';
+
 //icons
 import {FaExpandArrowsAlt,FaPeopleArrows} from 'react-icons/fa'
 const Room = ({room}) => {
